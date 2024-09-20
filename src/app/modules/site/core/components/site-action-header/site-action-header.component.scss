@@ -1,0 +1,38 @@
+header.site-action-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 120px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+  .site-action-element {
+    #logo {
+      width: 100px;
+    }
+    p.site-action-link {
+      transition: 0.3s;
+      cursor: pointer;
+      &:hover {
+        font-weight: 700;
+      }
+    }
+    .link {
+      cursor: pointer;
+    }
+    display: inherit;
+    align-items: center;
+    gap: 20px;
+    &.site-action-header-right {
+      .user-ball {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        font-weight: 600;
+      }
+    }
+  }
+}
