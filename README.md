@@ -1,27 +1,37 @@
-# FromhelInstitucional
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+# FromHel Studio Institucional
 
-## Development server
+- FromHel Studio Institucional Website made with Angular v18 no standalone
+- This app uses SSR/SSG strategy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183890595-779a7e64-3f43-4634-bad2-eceef4e80268.png" alt="Angular" title="Angular"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png" alt="Sass" title="Sass"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/68279555/200387386-276c709f-380b-46cc-81fd-f292985927a8.png" alt="Cypress" title="Cypress"/></code>
+</div>
 
-## Code scaffolding
+## Pre-requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- NodeJS v22.7.0
 
-## Build
+## Development use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Clone this repo 
+- Install the dependencies with yarn `yarn install`
+- Initialize project with `yarn start` or `yarn serve`
+- Starts coding!
 
-## Running unit tests
+## Tests (not finished)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This application was build with Cypress Tests
 
-## Running end-to-end tests
+### Unit tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Run `yarn test` to run in cli
 
-## Further help
+### E2E tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Initialize Cypress app with `yarn cypress open`
+- Choose E2E tests
+- Run
