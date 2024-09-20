@@ -8,7 +8,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:fromhel-institucional": "node dist/fromhel-institucional/server/server.mjs"
+    "serve": "node dist/fromhel-institucional/server/server.mjs"
   },
   "private": false,
   "dependencies": {
