@@ -6,5 +6,10 @@ import { Component, signal } from '@angular/core';
   styleUrl: './site-action-header.component.scss'
 })
 export class SiteActionHeaderComponent {
-  showHiddenSystems = signal<boolean>(false)
+  showHiddenSystems = signal<boolean>(true)
+  showMenu = signal<boolean>(false)
+
+  toggleShowMenu() {
+    this.showMenu.update(value => !value)
+  }
 }

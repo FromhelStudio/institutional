@@ -1,6 +1,7 @@
 <header class="site-action-header">
-  <div class="site-action-header-left site-action-element">
-    <img class="link" src="/logo.webp" id="logo">
+  <p class="mobile-menu" (click)="toggleShowMenu()">menu</p>
+  <img class="link" src="/logo.webp" id="logo">
+  <div class="site-action-header-left {{ showMenu() ? 'active' : '' }} site-action-element">
     <p class="site-action-link">BulletSpeel</p>
     <p class="site-action-link">Cordel do Mandacaru</p>
     @if (showHiddenSystems()) {
@@ -9,7 +10,7 @@
     }
   </div>
   <div class="site-action-header-right site-action-element">
-    <p class="site-action-link">Loja</p>
+    <p class="site-action-link" id="store">Loja</p>
     <div class="user-ball">{{ "GABRIEL ARAÚJO" | formatUser }}</div>
   </div>
 </header>
