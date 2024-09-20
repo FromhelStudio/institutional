@@ -9,6 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve": "node dist/fromhel-institucional/server/server.mjs",
+    "prettier": "prettier --write .",
     "prepare": "husky"
   },
   "private": false,
