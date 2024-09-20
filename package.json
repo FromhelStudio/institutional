@@ -1,6 +1,7 @@
 {
   "name": "fromhel-institucional",
   "version": "0.0.0",
+  "license": "ISC",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +10,7 @@
     "test": "ng test",
     "serve:ssr:fromhel-institucional": "node dist/fromhel-institucional/server/server.mjs"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^18.2.0",
     "@angular/common": "^18.2.0",
